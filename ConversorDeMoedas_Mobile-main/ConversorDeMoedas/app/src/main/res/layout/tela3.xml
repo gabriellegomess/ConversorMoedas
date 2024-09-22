@@ -1,0 +1,129 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/tela3" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout
+			android:id="@+id/content_container"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<RelativeLayout
+				style="@style/BACKGROUND"
+				android:id="@+id/page_tela3_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+
+				<View
+					style="@style/BACKGROUND"
+					android:id="@+id/_bg__tela3_ek2"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="360dp"
+					android:layout_height="640dp" />
+
+				<TextView
+					style="@style/TEXT"
+					android:id="@+id/configura__es"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="28sp"
+					android:layout_marginStart="13.52dp"
+					android:layout_marginTop="10.52dp"
+					android:layout_width="330dp"
+					android:layout_height="56.8dp"
+					android:text="@string/configura__es_string"
+					 />
+
+				<ImageView
+					android:id="@+id/homee"
+					android:layout_width="42.89dp"
+					android:layout_height="42.89dp"
+					android:layout_marginStart="7dp"
+					android:layout_marginTop="585dp"
+					android:contentDescription="home"
+					android:onClick="IrParaHome"
+					android:src="@drawable/home" />
+
+				<TextView
+					android:id="@+id/idioma"
+					style="@style/TEXT"
+					android:layout_width="268dp"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginStart="13dp"
+					android:layout_marginTop="103dp"
+					android:gravity="center"
+					android:text="@string/idioma_string"
+					android:textSize="38sp" />
+
+				<View
+					style="@style/BOTAO"
+					android:id="@+id/rectangle_30"
+					android:layout_marginStart="7dp"
+					android:layout_marginTop="152dp"
+					android:layout_width="334dp"
+					android:layout_height="55dp" />
+
+				<TextView
+					android:id="@+id/tema"
+					style="@style/TEXT"
+					android:layout_width="268dp"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginStart="13dp"
+					android:layout_marginTop="240dp"
+					android:gravity="center"
+					android:text="@string/tema_string"
+					android:textSize="38sp" />
+
+				<View
+					style="@style/BOTAO"
+					android:id="@+id/rectangle_31"
+					android:layout_marginStart="7dp"
+					android:layout_marginTop="289dp"
+					android:layout_width="334dp"
+					android:layout_height="55dp" />
+
+				<TextView
+					style="@style/TEXT"
+					android:id="@+id/portugu_s___br"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="30sp"
+					android:layout_marginStart="14dp"
+					android:layout_marginTop="161dp"
+					android:layout_width="240dp"
+					android:layout_height="45dp"
+					android:text="@string/portugu_s___br_string" />
+
+				<TextView
+					style="@style/TEXT"
+					android:id="@+id/escuro"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="30sp"
+					android:layout_marginStart="11dp"
+					android:layout_marginTop="297dp"
+					android:layout_width="136dp"
+					android:layout_height="43dp"
+					android:text="@string/escuro_string"
+					 />
+
+				<Switch
+					android:id="@+id/SwitchTema"
+					android:layout_width="50dp"
+					android:layout_height="30dp"
+					android:layout_marginStart="280dp"
+					android:layout_marginTop="301dp"
+					tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

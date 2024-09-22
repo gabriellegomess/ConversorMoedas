@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/BACKGROUND"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/imageViewSplash"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="230dp"
+        android:fitsSystemWindows="true"
+        android:foregroundGravity="center"
+        android:src="@drawable/money" />
+
+    <TextView
+        style="@style/TEXT"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/app_name"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

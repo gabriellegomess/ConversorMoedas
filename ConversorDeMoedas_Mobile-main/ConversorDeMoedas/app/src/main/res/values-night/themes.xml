@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="ThemeDark" parent="Theme.AppCompat">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dm_textoSecundario</item>
+        <!-- Define a cor primária do aplicativo, usada para a barra de ação e outros elementos principais. Neste caso, é a cor roxa com tonalidade 200. -->
+
+        <item name="colorPrimaryVariant">@color/white</item>
+        <!-- Define a variação da cor primária, geralmente usada em áreas da barra de ação. Aqui, é a tonalidade mais escura de roxo (purple_700). -->
+
+        <item name="colorOnPrimary">@color/dm_textoPrimario</item>
+        <!-- Define a cor do texto que aparece sobre a cor primária. Neste caso, é preto (black) para garantir alta legibilidade. -->
+
+        <item name="colorSecondary">@color/teal_200</item>
+        <!-- Define a cor secundária do aplicativo, que pode ser usada em botões secundários ou destaques. A cor é um tom de teal (teal_200). -->
+
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <!-- Define uma variação da cor secundária, que geralmente é usada em áreas específicas para fornecer contraste. Também é um tom de teal (teal_200). -->
+
+        <item name="colorOnSecondary">@color/dm_textoSecundario</item>
+        <!-- Define a cor do texto que aparece sobre a cor secundária. Mais uma vez, é preto (black) para legibilidade. -->
+
+        <!-- Define a cor da barra de status do sistema. Neste caso, ele pega a cor definida como colorPrimaryVariant para garantir uma aparência consistente. -->
+
+    </style>
+
+
+    <style name="BACKGROUND">
+        <item name="android:background">@color/dm_corDePrimeiroPlano</item>
+    </style>
+
+    <style name="BOTAO">
+        <item name="android:background">@drawable/btn_dark</item>
+        <item name="android:textColor">@color/dm_textoPrimario</item>
+    </style>
+
+    <style name="TEXT">
+        <item name="android:textColor">@color/dm_textoPrimario</item>
+        <item name="android:textColorHint">@color/dm_textoPrimario</item>
+    </style>
+
+</resources>

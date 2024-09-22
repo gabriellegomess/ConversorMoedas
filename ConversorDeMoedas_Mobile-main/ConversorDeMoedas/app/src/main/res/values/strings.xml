@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Conversor De Moedas</string>
+    <string name="moedas_mais_populares__string">Moedas mais populares:</string>
+    <string name="usd_string">USD    R$</string>
+    <string name="r_4_99_string">R$4,99</string>
+    <string name="gbp_string">GBP    R$</string>
+    <string name="r_6_35_string">R$6,35</string>
+    <string name="eur_string">EUR    R$</string>
+    <string name="r_5_34_string">R$5,34</string>
+    <string name="selecione_a_moeda_que_deseja_converter_string">Selecione a moeda que deseja converter</string>
+    <string name="d_lar_americano__usd__string">Dolar Americano (USD)</string>
+    <string name="euro__eur__string">Euro(EUR)</string>
+    <string name="yene__jpy__string">Yene(JPY)</string>
+    <string name="libra_esterlina__gbp__string">Libra Esterlina (GBP)</string>
+    <string name="d_lar_australiano__aud_nzd__string">Dolar Australiano (AUD/NZD)</string>
+    <string name="d_lar_canadense__cad__string">Dolar Canadense (CAD)</string>
+    <string name="yuan__cny__string">Yuan(CNY)</string>
+    <string name="peso_argentino__ars__string">Peso Argentino (ARS)</string>
+    <string name="nome_da_moeda_string">Nome da Moeda</string>
+    <string name="digite_o_valor_que_deseja_converter__string">Digite o valor que deseja converter:</string>
+    <string name="valor_convertido__string">Valor convertido:</string>
+    <string name="r_20_000_00_string">R$20.000.00</string>
+    <string name="configura__es_string">Configurações</string>
+    <string name="idioma_string">Idioma</string>
+    <string name="tema_string">Tema</string>
+    <string name="portugu_s___br_string">Português - BR</string>
+    <string name="escuro_string">Escuro</string>
+</resources>

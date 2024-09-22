@@ -1,0 +1,159 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/tela2" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<RelativeLayout
+				style="@style/BACKGROUND"
+				android:id="@+id/page_tela2_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View
+					style="@style/BACKGROUND"
+					android:id="@+id/_bg__tela2_ek2"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="360dp"
+					android:layout_height="640dp" />
+
+				<TextView
+					style="@style/TEXT"
+					android:id="@+id/nome_da_moeda"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="28sp"
+					android:layout_marginStart="13.52dp"
+					android:layout_marginTop="10.52dp"
+					android:layout_width="330dp"
+					android:layout_height="56.8dp"
+					android:text="@string/nome_da_moeda_string"
+					 />
+
+				<TextView
+					style="@style/TEXT"
+					android:id="@+id/digite_o_valor_que_deseja_converter_"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="20sp"
+					android:layout_marginStart="12dp"
+					android:layout_marginTop="99dp"
+					android:layout_width="338dp"
+					android:layout_height="54dp"
+					android:text="@string/digite_o_valor_que_deseja_converter__string"	 />
+
+				<ImageView
+					android:id="@+id/arrow_3"
+					android:src="@drawable/arrow_down"
+					android:contentDescription="arrow_3"
+					 android:layout_marginStart="146.66dp"
+					android:layout_marginTop="235.66dp"
+					android:layout_width="24.57dp"
+					android:layout_height="55.04dp" />
+
+				<ImageView
+					android:id="@+id/arrow_3_ek1"
+					android:src="@drawable/arrow_up"
+					android:contentDescription="arrow_3_ek1"
+					android:layout_marginStart="175.66dp"
+					android:layout_marginTop="235.66dp"
+					android:layout_width="24.57dp"
+					android:layout_height="55.04dp" />
+
+				<TextView
+					style="@style/TEXT"
+					android:id="@+id/valor_convertido_"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="20sp"
+					android:layout_marginStart="64dp"
+					android:layout_marginTop="318dp"
+					android:layout_width="234dp"
+					android:layout_height="38dp"
+					android:text="@string/valor_convertido__string"
+					 />
+
+				<ImageView
+					android:id="@+id/homee"
+					android:layout_width="42.89dp"
+					android:layout_height="42.89dp"
+					android:layout_marginStart="7dp"
+					android:layout_marginTop="585dp"
+					android:contentDescription="home"
+					android:onClick="IrParaHome"
+					android:src="@drawable/home" />
+
+				<ImageView
+					android:id="@+id/settings"
+					android:layout_width="42.89dp"
+					android:layout_height="42.89dp"
+					android:layout_marginStart="303dp"
+					android:layout_marginTop="585dp"
+					android:contentDescription="settings"
+					android:onClick="TelaConfiguracao"
+					android:src="@drawable/settings" />
+
+				<View
+					style="@style/BOTAO"
+					android:id="@+id/rectangle_32"
+					android:layout_width="250dp"
+					android:layout_height="57dp"
+					android:layout_marginStart="31dp"
+					android:layout_marginTop="158dp" />
+
+				<EditText
+					style="@style/TEXT"
+					android:id="@+id/valorConverter"
+					android:layout_width="230dp"
+					android:layout_height="46dp"
+					android:layout_marginStart="42dp"
+					android:layout_marginTop="165dp"
+					android:ems="10"
+					android:gravity="center"
+					android:hint="Ex: 400"
+					android:inputType="numberDecimal" />
+
+				<View
+					style="@style/BOTAO"
+					android:id="@+id/rectangle_33"
+					android:layout_marginStart="28dp"
+					android:layout_marginTop="358dp"
+					android:layout_width="299dp"
+					android:layout_height="57dp" />
+
+				<TextView
+					style="@style/TEXT"
+					android:id="@+id/valorConvertido"
+					android:layout_width="262dp"
+					android:layout_height="55.8dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginStart="44dp"
+					android:layout_marginTop="355dp"
+					android:gravity="center"
+					android:hint="..."
+					android:textSize="38sp" />
+
+				<Button
+					android:id="@+id/btnConverter"
+					style="@style/BOTAO"
+					android:layout_width="63dp"
+					android:layout_height="65dp"
+					android:layout_marginStart="285dp"
+					android:layout_marginTop="155dp"
+					android:onClick="converter"
+					android:text="OK" />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
